@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+	<addon id="script.moviestreamer.nl" name="MovieStreamer.nl Instellingen" version="1.0.29" provider-name="moviestreamer.nl">
+	<requires>
+		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	
+	<extension point="xbmc.service" start="login" 	library="service.py"/>
+	<extension point="xbmc.python.library"          library="default.py" />
+	<extension point="xbmc.python.pluginsource"     library="default.py" />
+    <extension point="xbmc.python.script"           library="default.py">
+        <provides>executable</provides>
+    </extension>
+	
+	
+
+	<extension point="xbmc.addon.metadata">
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+	</extension>
+</addon>

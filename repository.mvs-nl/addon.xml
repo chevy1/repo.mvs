@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mvs-nl" version="1.0.0" name="MovieStreamer repository" provider-name="moviestreamer.nl">
+	
+	<extension point="xbmc.addon.repository" name="Moviestreamer Repository">
+		<info compressed="false">https://raw.githubusercontent.com/chevy1/repo.mvs/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/chevy1/repo.mvs/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/chevy1/repo.mvs/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Moviestreamer</summary>
+		<description lang="en">Moviestreamer repo for automatic updates</description>
+		<platform>all</platform>
+	</extension>
+</addon>
